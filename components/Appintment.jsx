@@ -14,29 +14,24 @@ const Appintment = () => {
                 </h4>
                 <hr />
                 <div className=" space-y-2 px-10 lg:px-2 mt-2 ">
-                    <div className="flex justify-between">
-                        <p className="font-bold text-sm">Monday</p>
-                        <p className="">9:00am - 4:00pm</p>
-                    </div>
-                    <div className="flex justify-between">
-                        <p className="font-bold text-sm">Tuesday</p>
-                        <p className="">9:00am - 4:00pm</p>
+
+                    <p className="font-bold">Monday to Saturday</p>
+                    
+                    <div className="flex justify-between items-center text-sm">
+                        <div className="shadow-lg  font-bold text-gray-800 bg-green-500 flex flex-col rounded justify-center items-center p-1 w-[5rem]">
+                        <p className="">OPENING</p>
+                        <p className="bg-white p-2 rounded-full ">9AM </p>
                     </div>
 
-                    <div className="flex justify-between">
-                        <p className="font-bold text-sm">Tuesday</p>
-                        <p className="">9:00am - 4:00pm</p>
+                     TO
+        
+                    <div className=" font-bold text-gray-800 bg-red-500 flex flex-col rounded justify-center items-center p-1 w-[5rem]">
+                        <p className="">CLOSING</p>
+                        <p className="bg-white p-2 rounded-full ">7PM </p>
                     </div>
-
-                    <div className="flex justify-between">
-                        <p className="font-bold text-sm">Tuesday</p>
-                        <p className="">9:00am - 4:00pm</p>
                     </div>
-
-                    <div className="flex justify-between">
-                        <p className="font-bold text-sm">Tuesday</p>
-                        <p className="">9:00am - 4:00pm</p>
-                    </div>
+                    
+                   
                 </div>
                 
             </div>
