@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+    .appintment-heading{
+        @apply text-blue-900 font-bold md:text-center my-2 ml-5
+    }
+}
